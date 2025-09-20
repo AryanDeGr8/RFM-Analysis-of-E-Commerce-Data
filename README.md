@@ -1,103 +1,77 @@
-# RFM-and-CLV-Analysis-of-E-Commerce-Data
-RFM and CLV Analysis of Online Retail Dataset
+# RFM-Analysis-of-E-Commerce-Data
+RFM Analysis of Online Retail Dataset
+Executive Summary
 
-🧾 Project Summary
-
-This project investigates whether the Pareto Principle (“20% of customers drive 80% of revenue”) holds true for e-commerce, using the Online Retail dataset from the UCI Machine Learning Repository. With this work, my RFM (Recency, Frequency, Monetary) analysis is complete.
-
-📚 Dataset Description
-
-Name: Online Retail (UCI ML Repository) 
+This project tests the Pareto Principle (20% of customers drive 80% of revenue) using real transactional data from the Online Retail dataset
+ from the UCI Machine Learning Repository. 
 UCI Machine Learning Repository
 
-Period Covered: 01 December 2010 to 09 December 2011 
+The dataset covers 541,909 transactions from a UK-based online retailer selling all-occasion gifts, spanning December 2010 to December 2011. 
 UCI Machine Learning Repository
 
-Size: ~541,909 transactions 
+Data includes features such as InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, and Country. 
 UCI Machine Learning Repository
 
-Features include:
+Using this data, I performed RFM (Recency, Frequency, Monetary) analysis to segment customers and measure how much revenue is driven by high value customers.
 
-InvoiceNo, StockCode, Description
+Key Findings
 
-Quantity, InvoiceDate, UnitPrice
+High value customers make up ~28.86% of all customers.
 
-CustomerID, Country 
+These same high value customers drive ~77.13% of total revenue.
+
+Most of these high value customers joined before May 2011.
+
+Customers who buy more frequently tend to also spend more (i.e. higher monetary value).
+
+Implications & Recommendations
+
+From a business strategy standpoint, the analysis suggests:
+
+Retain existing high value customers using discounts or promo codes.
+
+Investigate why the rate of new high value customers declined, to ensure the business continues to acquire them.
+
+Use targeted, timely discounts for customers who made recent purchases: increasing purchase frequency correlates with increased revenue.
+
+Conclusion
+
+The Pareto Principle holds in this dataset: a minority of your customer base contributes the majority of your revenue.
+
+Focusing efforts on top customers (both retaining and replacing/improving) is a high ROI strategy.
+
+This RFM analysis completes the segmentation work for this project, enabling actionable insights for marketing, retention, and acquisition strategies.
+
+Repository Contents
+
+Data preprocessing code (cleaning, handling cancellations/returns, computing total purchase amounts)
+
+RFM calculation scripts (Recency, Frequency, Monetary)
+
+Visualizations showing distributions, revenue contributions, customer profiles
+
+Summary statistics & segment definitions
+
+(Optional) Jupyter notebooks or scripts to reproduce analysis
+
+How to Use / Next Steps
+
+Clone the repo to reproduce results or adapt to your own customer data.
+
+Use the RFM segments to tailor marketing campaigns and customer outreach.
+
+Monitor changes over time — track whether new high value customers are being added.
+
+Consider further segmentation (clustering, cohort analysis), predictive modeling (e.g. churn prediction), and linking with customer behavior metrics beyond purchases.
+
+License / Credits
+
+Data source: UCI ML Repository — Online Retail Dataset 
 UCI Machine Learning Repository
 
-🔍 Key Findings
+Author: Your Name Here
 
-High value customers make up 28.86% of the total customers.
-
-These high value customers drive 77.13% of the revenue.
-
-Majority of the high value customers joined before May 2011.
-
-Customers who buy more frequently also spend more money in general.
-
-📈 Implications & Recommendations
-
-Retain existing high value customers using discounts and promo codes.
-
-Investigate what caused the rate of new high value customers to drop, so the business consistently acquires them.
-
-Target recent purchasers with timely discounts — increasing purchase frequency correlates with revenue growth.
-
-🧮 Conclusion
-
-The Pareto Principle holds in this dataset: a minority of customers generate the majority of revenue.
-
-Focusing on your top customers (both retaining and growing that segment) yields high return on investment.
-
-RFM segmentation enables actionable strategies for marketing, customer retention, and acquisition.
-
-🗂 Repository Structure
-├── data/
-│     └── raw/                 # Original Online Retail dataset files
-│     └── processed/           # Cleaned/aggregated data, RFM features
-├── notebooks/
-│     └── EDA_and_visualizations.ipynb
-│     └── RFM_analysis.ipynb
-├── src/
-│     └── preprocessing.py
-│     └── rfm_calculation.py
-│     └── visualization_helpers.py
-├── visualizations/
-│     └── revenue_contribution.png
-│     └── rfm_segments_distribution.png
-├── README.md                  # This file
-└── requirements.txt           # Python / R dependencies
-
-🔧 How to Use / Reproduce
-
-Clone the repo.
-
-Install dependencies listed in requirements.txt.
-
-Load the raw data from the UCI repository.
-
-Preprocess (clean, filter cancellations/returns, compute total spend).
-
-Calculate RFM metrics for each customer.
-
-Segment customers based on RFM scores.
-
-Generate visualizations and summary statistics as in this project.
-
-🤝 Next Steps
-
-Apply this RFM framework on your own business/customer data to see how it behaves.
-
-Monitor changes over time: are you losing or gaining high-value customers?
-
-Combine RFM with cohort analysis or predictive modeling (e.g. churn prediction).
-
-Use segments for personalized marketing: separate offers for high value vs. low-value or inactive customers.
-
-⚠️ Data Source & License
-
-Data Source: Online Retail Dataset, UCI Machine Learning Repository 
-UCI Machine Learning Repository
+All code is open / available (per licensing you choose)
 
 License: CC BY 4.0 (UCI dataset licensing) 
 UCI Machine Learning Repository
