@@ -13,23 +13,29 @@
 
 ## Key Findings
 
-- High value customers make up ~28.86% of all customers.
+- High value customers make up ~28.86% of all customers but drive ~77.13% of total revenue.
   
   <img width="859" alt="image" src="https://github.com/AryanDeGr8/RFM-Analysis-of-E-Commerce-Data/blob/main/Distribution%20of%20Customers%20on%20RFM%20Segment.png">
-
-- These same high value customers drive ~77.13% of total revenue.
   
   <img width="859" alt="image" src="https://github.com/AryanDeGr8/RFM-Analysis-of-E-Commerce-Data/blob/main/Percent%20of%20Revenue%20Generated%20per%20RFM%20Segment.png">
 
+  This roughly confirms the Pareto Principle which states that 80% of revenue is driven by the top 20% of customers. Our goal is to understand this particular segment of customers.
+  
 - Most of these high value customers joined before May 2011.
   
   <img width="859" alt="image" src="https://github.com/AryanDeGr8/RFM-Analysis-of-E-Commerce-Data/blob/main/Distribution%20of%20High%20Value%20Customer%20Joining%20Dates.png">
+
+  The huge spike in December 2010 shows a lot of high value customers made their first purchases within this time period followed by a steady decrease in the rate of acquisition of high value customers. 
   
   <img width="859" alt="image" src="https://github.com/AryanDeGr8/RFM-Analysis-of-E-Commerce-Data/blob/main/Cumulative%20Distribution%20of%20High%20Value%20Customer%20Joining%20Dates.png">
+
+  The Cumulative Distribution plot clearly shows more than 900 of the 1262 high value customers joined before May 2011. This is a point of concern since it means the business's rate of acquisition of high value customers has slowed down. However, it should be noted that some of the customers who made their first purchases in the last 7 months maybe haven't had enough time to convert to high value customers.
 
 - Customers who buy more frequently tend to also spend more (i.e. higher monetary value).
   
   <img width="859" alt="image" src="https://github.com/AryanDeGr8/RFM-Analysis-of-E-Commerce-Data/blob/main/Heatmap%20of%20Correlation%20between%20R%2C%20F%20and%20M.png">
+
+  The above heatmap shows great positive correlation between F and M, suggesting customers who buy more frequently also spend more. The correlation between R and M, and R and F, on the other hand is not very strong. This highlights an opportunity to send send discounts and promo codes for customers who recently made a purchase so that they are incentivized to buy from the business again.
 
 ## Implications & Recommendations
 
