@@ -1,7 +1,7 @@
 # RFM-Analysis-of-E-Commerce-Data
-#RFM Analysis of Online Retail Dataset
+# RFM Analysis of Online Retail Dataset
 
-##Executive Summary
+## Executive Summary
 
 -This project tests the Pareto Principle (20% of customers drive 80% of revenue) using real transactional data from the [Online Retail dataset
  from the UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail). 
@@ -12,7 +12,7 @@
 
 -Using this data, I performed RFM (Recency, Frequency, Monetary) analysis to segment customers and measure how much revenue is driven by high value customers.
 
-Key Findings
+## Key Findings
 
 -High value customers make up ~28.86% of all customers.
 
@@ -22,7 +22,7 @@ Key Findings
 
 -Customers who buy more frequently tend to also spend more (i.e. higher monetary value).
 
-##Implications & Recommendations
+## Implications & Recommendations
 
 From a business strategy standpoint, the analysis suggests:
 
@@ -32,7 +32,7 @@ From a business strategy standpoint, the analysis suggests:
 
 -Use targeted, timely discounts for customers who made recent purchases: increasing purchase frequency correlates with increased revenue.
 
-##Conclusion
+## Conclusion
 
 -The Pareto Principle holds in this dataset: a minority of your customer base contributes the majority of your revenue.
 
@@ -40,7 +40,7 @@ From a business strategy standpoint, the analysis suggests:
 
 -This RFM analysis completes the segmentation work for this project, enabling actionable insights for marketing, retention, and acquisition strategies.
 
-##Repository Contents
+## Repository Contents
 
 -Visualizations showing distributions, revenue contributions, customer profiles
 
@@ -48,7 +48,7 @@ From a business strategy standpoint, the analysis suggests:
 
 -Jupyter notebook to reproduce analysis
 
-##How to Use / Next Steps
+## How to Use / Next Steps
 
 -Clone the repo and download the [Online Retail dataset from the UCI ML Repository](https://archive.ics.uci.edu/dataset/352/online+retail) to reproduce results or adapt to your own customer data.
 
@@ -58,7 +58,7 @@ From a business strategy standpoint, the analysis suggests:
 
 -Consider further segmentation (clustering, cohort analysis), predictive modeling (e.g. churn prediction), and linking with customer behavior metrics beyond purchases.
 
-##Credits
+## Credits
 
 -Data source: UCI ML Repository — Online Retail Dataset 
 -Author: Aryan 
