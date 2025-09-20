@@ -1,1 +1,3 @@
 # RFM-and-CLV-Analysis-of-E-Commerce-Data
+
+Dawg where do I even start...
