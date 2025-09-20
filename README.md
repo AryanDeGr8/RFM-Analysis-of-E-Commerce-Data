@@ -1,4 +1,3 @@
-# RFM-Analysis-of-E-Commerce-Data
 # RFM Analysis of Online Retail Dataset
 
 ## Executive Summary
