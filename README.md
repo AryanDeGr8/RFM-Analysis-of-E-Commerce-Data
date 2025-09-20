@@ -14,15 +14,21 @@
 ## Key Findings
 
 - High value customers make up ~28.86% of all customers.
+  
   <img width="859" alt="image" src="https://github.com/AryanDeGr8/RFM-Analysis-of-E-Commerce-Data/blob/main/Distribution%20of%20Customers%20on%20RFM%20Segment.png">
 
 - These same high value customers drive ~77.13% of total revenue.
+  
   <img width="859" alt="image" src="https://github.com/AryanDeGr8/RFM-Analysis-of-E-Commerce-Data/blob/main/Percent%20of%20Revenue%20Generated%20per%20RFM%20Segment.png">
 
 - Most of these high value customers joined before May 2011.
-  <img width="859" alt="image" src="https://github.com/AryanDeGr8/RFM-Analysis-of-E-Commerce-Data/blob/main/Distribution%20of%20High%20Value%20Customer%20Joining%20Dates.png"><img width="859" alt="image" src="https://github.com/AryanDeGr8/RFM-Analysis-of-E-Commerce-Data/blob/main/Cumulative%20Distribution%20of%20High%20Value%20Customer%20Joining%20Dates.png">
+  
+  <img width="859" alt="image" src="https://github.com/AryanDeGr8/RFM-Analysis-of-E-Commerce-Data/blob/main/Distribution%20of%20High%20Value%20Customer%20Joining%20Dates.png">
+  
+  <img width="859" alt="image" src="https://github.com/AryanDeGr8/RFM-Analysis-of-E-Commerce-Data/blob/main/Cumulative%20Distribution%20of%20High%20Value%20Customer%20Joining%20Dates.png">
 
 - Customers who buy more frequently tend to also spend more (i.e. higher monetary value).
+  
   <img width="859" alt="image" src="https://github.com/AryanDeGr8/RFM-Analysis-of-E-Commerce-Data/blob/main/Heatmap%20of%20Correlation%20between%20R%2C%20F%20and%20M.png">
 
 ## Implications & Recommendations
